@@ -1,44 +1,73 @@
 /* 设置按钮样式 */
 .button{
-     /* 文字颜色 */
-     color: #0099CC; 
-     /* 清除背景色 */
-     background: transparent; 
-     /* 边框样式、颜色、宽度 */
-     border: 2px solid #0099CC;
-     /* 给边框添加圆角 */
-     border-radius: 6px; 
-     /* 字母转大写 */
-     border: none;
-     color: white;
-     padding: 10px 20px;
-     text-align: center;
-     display: inline-block;
-     font-size: 16px;
-     margin: 4px 2px;
-     -webkit-transition-duration: 0.4s; /* Safari */
-     transition-duration: 0.4s;
-     cursor: pointer;
-     text-decoration: none;
-     text-transform: uppercase;
-     width: 120px;
-     height: 45px;
-     font-size:80%
+        /* 文字颜色 */
+        color: #0099CC; 
+        /* 清除背景色 */
+        background: transparent; 
+        /* 边框样式、颜色、宽度 */
+        border: 2px solid #0099CC;
+        /* 给边框添加圆角 */
+        border-radius: 6px; 
+        /* 字母转大写 */
+        border: none;
+        color: white;
+        padding: 5px 20px;
+        text-align: center;
+        font-size: 16px;
+        margin: 4px 2px;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        cursor: pointer;
+        text-decoration: none;
+        text-transform: uppercase;
+        width: 120px;
+        height: 45px;
+        font-size:80%
 }
-/* 设置按钮悬停 */
-.button:hover{
-    background-color: #54a8c3;
+/* 悬停样式 */
+.button:hover {
+    background-color: #008CBA;
     color: white;
 }
+/* 按钮定位 */
+.button_sum{
+   
+    position:absolute; /*绝对定位*/   
+    top: 60%; /*距顶部50%*/   
+    left:50%;   
+    margin:-100px auto auto -90px; /*设定这个div的margin-top的负值为自身的高度的一半,margin-left的值也是自身的宽度的一半的负值.(感觉在绕口令)*/   
+    width:300px; /*宽为400,那么margin-top为-200px*/   
+    height:200px; /*高为200那么margin-left为-100px;*/   
+    z-index:99; /*浮动在最上层 */ 
+      
+}
 
+/* 对单个按钮的调整 */
 .button_blog{
-    margin: 0cm auto auto;
-}
+    margin:auto auto auto -70px
 
+}
 .button_wp{
-    margin: 0cm auto auto;
+    margin:auto auto auto 50px
+
+}
+.button_tk{
+    margin:auto auto auto 70px
+
+}
+/* 横线 */
+.hr{
+    margin: 10px auto auto -150px;
+    width: 500px;
+    border-bottom: 2px solid #f3f3f3;
+}
+.hr_a{
+    margin: -45px auto auto -150px;
+    width: 500px;
+    border-bottom: 2px solid #f3f3f3;
 }
 
-.button_tk{
-    margin: 0cm auto auto;
-}
+
+    
+
+

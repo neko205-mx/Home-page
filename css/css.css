@@ -1,33 +1,28 @@
+
 /* 头像css */
 .tx{
-    width: 100px;
-    height: 100px;
-    background: url("../img/tx.jpg") no-repeat;
-    background-position: center;
-    background-size: 100px;
-    border-radius: 50%;
-    /* 用于调整元素位置 */
-    margin: 5cm auto auto;
-    
-    
-    
-    
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 100px auto;
+    margin-bottom: 50px;
     
 }
+.tx_e{
+    position: relative;
+    right: 0%;
+    width: 120px;
+}
 /* 背景css */
-.bg{
+.home{
     position: fixed;
     top: 0;
     left: 0; 
     bottom: 0;
     right: 0;
     background-image: url(../img/bg.jpg); 
-    width:100%;
-    height:100%;
     background-position: center  center;
     background-repeat: no-repeat;background-size:cover;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-   
-
 }
