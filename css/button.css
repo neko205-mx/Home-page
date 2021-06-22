@@ -33,7 +33,7 @@
 .button_sum{
    
     position:absolute; /*绝对定位*/   
-    top: 60%; /*距顶部50%*/   
+    top: 70%; /*距顶部50%*/   
     left:50%;   
     margin:-100px auto auto -90px; /*设定这个div的margin-top的负值为自身的高度的一半,margin-left的值也是自身的宽度的一半的负值.(感觉在绕口令)*/   
     width:300px; /*宽为400,那么margin-top为-200px*/   
@@ -57,14 +57,28 @@
 }
 /* 横线 */
 .hr{
-    margin: 10px auto auto -150px;
+    margin: -160px auto auto -150px;
     width: 500px;
-    border-bottom: 2px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
 }
 .hr_a{
-    margin: -45px auto auto -150px;
+    margin: 20px auto auto -150px;
     width: 500px;
-    border-bottom: 2px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
+}
+.copy{
+    position:absolute; /*绝对定位*/   
+    top: 70%; /*距顶部50%*/   
+    left: 50%;   
+    margin:200px auto auto -65px; /*设定这个div的margin-top的负值为自身的高度的一半,margin-left的值也是自身的宽度的一半的负值.(感觉在绕口令)*/   
+    width:300px; /*宽为400,那么margin-top为-200px*/   
+    height:200px; /*高为200那么margin-left为-100px;*/   
+    z-index:99; /*浮动在最上层 */  
+}
+.copy{
+    color: white;
+    font-family:"等线 Light";
+    font-size:10px;
 }
 
 
