@@ -1,0 +1,15 @@
+.top{
+    margin: -340px auto auto -150px;
+    width: 5000px;
+    border-bottom:56px solid rgba(255,255,255,0.2);
+    transition-duration: 0.4s;
+}
+.top:hover{
+    border-bottom:70px solid rgb(255,255,255);
+}
+.top_text{
+    width: 50px;
+    margin: -40px auto auto 30px;
+    color: rgb(109, 109, 109);
+    
+}

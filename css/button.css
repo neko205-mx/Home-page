@@ -33,7 +33,7 @@
 .button_sum{
    
     position:absolute; /*绝对定位*/   
-    top: 70%; /*距顶部50%*/   
+    top: 80%; /*距顶部50%*/   
     left:50%;   
     margin:-100px auto auto -90px; /*设定这个div的margin-top的负值为自身的高度的一半,margin-left的值也是自身的宽度的一半的负值.(感觉在绕口令)*/   
     width:300px; /*宽为400,那么margin-top为-200px*/   

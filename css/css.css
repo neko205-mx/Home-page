@@ -6,14 +6,22 @@
     border-radius: 100%;
     overflow: hidden;
     position: relative;
-    margin: 100px auto;
+    margin: 170px auto;
     margin-bottom: 50px;
+    
     
 }
 .tx_e{
     position: relative;
     right: 0%;
     width: 120px;
+}
+/* 实现头像旋转 */
+.tx{
+    transition: all 1s;
+}
+.tx:hover{
+    transform: rotate(360deg);
 }
 /* 背景css */
 .home{
@@ -29,9 +37,9 @@
 /* 设置文字 */
 .home_text{
     position:absolute; /*绝对定位*/   
-    top: 40%; /*距顶部43%*/   
+    top: 44%; /*距顶部43%*/   
     left:50%;   
-    margin:-120px auto auto -47px; /*设定这个div的margin-top的负值为自身的高度的一半,margin-left的值也是自身的宽度的一半的负值.(感觉在绕口令)*/   
+    margin:-60px auto auto -47px; /*设定这个div的margin-top的负值为自身的高度的一半,margin-left的值也是自身的宽度的一半的负值.(感觉在绕口令)*/   
     width:300px; /*宽为400,那么margin-top为-200px*/   
     height:200px; /*高为200那么margin-left为-100px;*/   
     z-index:99; /*浮动在最上层 */ 
