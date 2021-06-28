@@ -1,15 +1,22 @@
 .top{
     margin: -340px auto auto -150px;
     width: 5000px;
-    border-bottom:56px solid rgba(255,255,255,0.2);
+    border-bottom:60px solid rgba(255,255,255,0.2);
     transition-duration: 0.4s;
 }
 .top:hover{
-    border-bottom:70px solid rgb(255,255,255);
+    border-bottom:60px solid rgb(255,255,255);
 }
 .top_text{
+    font-family:"微软雅黑";
     width: 50px;
     margin: -40px auto auto 30px;
     color: rgb(109, 109, 109);
+    transition-duration: 0.4s;
+    font-weight: bold
+    
+}
+.top_text:hover{
+    color: rgb(0, 0, 0);
     
 }
